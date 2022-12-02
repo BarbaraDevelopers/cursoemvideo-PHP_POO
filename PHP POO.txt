@@ -1,0 +1,41 @@
+Base da Orientação a Objeto
+
+Atributos
+Metodos
+Estados
+--------------- 
+Class - CanetaPreta
+Atributos - totDoc
+
+Abstract: Uma classe abstrata é uma classe que serve de modelo para outras classes. Além disso, ela não pode ser instanciada e pode conter ou não métodos abstratos, podendo ser implementados nas classes descendentes. Ou seja, uma classe abstrata pode implementar ou não um método, sendo obrigatória a existência de pelo menos um método abstrato, sem corpo. 
+
+- Métodos Acessores (Getters) - 
+Getters - Limita o acesso mantendo a segurança (ex: quer saber quantos documentos tem na mesa)
+Limitação de acesso ao usuario 
+getTotDoc() - Representação de método
+
+- Métodos Modificadores (Setters) - 
+Setters - Limita que as pessoas tenha acesso (ex: Não consegue colocar o documento na mesa)
+getTotDoc(doc) - Representação de método
+O método Setters precisa passar um parametro para funcionar, receber um documento.
+
+- Métodos Construtores (Construct) - 
+Construct - de uma classe sempre é executando quando um objeto da classe é instanciado. É um tipo especial de função do PHP. Normalmente o programador utiliza o método construtor para inicializar os atributos de um objeto, como por exemplo: Estabelecer conexão com um banco de dados, abertura de um arquivo que será utilizado para escrita de log, etc.
+
+Pilares do POO (qual a minha impressora? é hp)
+Encapsulamento
+Herança
+Polimorfismo - multiplas formas
+------------------------------------------------------
+O que é encapsulamento: Encapsulamento é um princípo de design de código, geralmente ligado a programação orientada, que nos orienta a esconder as funcionalidades e funcionamento do nosso código dentro de pequenas unidades (normalmente métodos e funções). Isso possibilita que modificações no sistema possam ser feitas de maneira mais cirurgicas, sem que uma funcionalidade esteja espalhada por diversas partes do sistema.
+
+O que é herança: 
+
+
+O que é polimorfismo:
+1 - Sobreposição 
+2 - Sobrecarga
+
+OBS.: Não pode instanciar um objeto de uma class abstrata
+
+
